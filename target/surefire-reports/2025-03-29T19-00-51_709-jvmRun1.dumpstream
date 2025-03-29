@@ -1,3 +1,0 @@
-# Created at 2025-03-29T19:00:52.544
-java.lang.NullPointerException: Cannot invoke "org.testng.xml.XmlClass.setParameters(java.util.Map)" because "this.m_currentClass" is null
-
