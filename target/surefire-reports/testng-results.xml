@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-29T18:26:40 CET" name="Suite" finished-at="2025-03-29T18:26:47 CET" duration-ms="6193">
+    <groups>
+    </groups>
+    <test started-at="2025-03-29T18:26:40 CET" name="Test" finished-at="2025-03-29T18:26:47 CET" duration-ms="6193">
+      <class name="com.tunisianet.TestCases.loginPageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.tunisianet.TestCases.loginPageTest@4c1d9d4b]" started-at="2025-03-29T18:26:40 CET" name="loadConfig" finished-at="2025-03-29T18:26:40 CET" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tunisianet.TestCases.loginPageTest@4c1d9d4b]" started-at="2025-03-29T18:26:40 CET" name="setUp" finished-at="2025-03-29T18:26:46 CET" duration-ms="5821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="connexion()[pri:0, instance:com.tunisianet.TestCases.loginPageTest@4c1d9d4b]" started-at="2025-03-29T18:26:46 CET" name="connexion" finished-at="2025-03-29T18:26:46 CET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connexion -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tunisianet.TestCases.loginPageTest@4c1d9d4b]" started-at="2025-03-29T18:26:46 CET" name="tearDown" finished-at="2025-03-29T18:26:47 CET" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tunisianet.TestCases.loginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
