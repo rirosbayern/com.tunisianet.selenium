@@ -88,7 +88,7 @@
 				<version>3.0.0-M4</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>test-output/testng.xml</suiteXmlFile>
+						<suiteXmlFile>test-output/testng-results.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<systemPropertyVariables>
 						<appURL>${url}</appURL>

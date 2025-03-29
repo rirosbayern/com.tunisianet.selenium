@@ -1,41 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-29T18:20:20 CET" name="Default suite" finished-at="2025-03-29T18:20:31 CET" duration-ms="11394">
+  <suite started-at="2025-03-29T18:42:05 CET" name="Suite" finished-at="2025-03-29T18:42:15 CET" duration-ms="9813">
     <groups>
     </groups>
-    <test started-at="2025-03-29T18:20:20 CET" name="Default test" finished-at="2025-03-29T18:20:31 CET" duration-ms="11394">
-      <class name="com.tunisianet.TestCases.TestHomePage">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.tunisianet.TestCases.TestHomePage@6aba2b86]" started-at="2025-03-29T18:20:20 CET" name="loadConfig" finished-at="2025-03-29T18:20:20 CET" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tunisianet.TestCases.TestHomePage@6aba2b86]" started-at="2025-03-29T18:20:20 CET" name="setUp" finished-at="2025-03-29T18:20:26 CET" duration-ms="6038" status="PASS">
+    <test started-at="2025-03-29T18:42:05 CET" name="Test" finished-at="2025-03-29T18:42:15 CET" duration-ms="9813">
+      <class name="com.tunisianet.TestCases.loginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tunisianet.TestCases.loginPageTest@661972b0]" started-at="2025-03-29T18:42:12 CET" name="setUp" finished-at="2025-03-29T18:42:15 CET" duration-ms="2943" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="tunisiaNetLogoTest()[pri:0, instance:com.tunisianet.TestCases.TestHomePage@6aba2b86]" started-at="2025-03-29T18:20:26 CET" name="tunisiaNetLogoTest" finished-at="2025-03-29T18:20:26 CET" duration-ms="326" status="PASS">
+        <test-method signature="connexion()[pri:0, instance:com.tunisianet.TestCases.loginPageTest@661972b0]" started-at="2025-03-29T18:42:15 CET" name="connexion" finished-at="2025-03-29T18:42:15 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tunisiaNetLogoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tunisianet.TestCases.TestHomePage@6aba2b86]" started-at="2025-03-29T18:20:26 CET" name="tearDown" finished-at="2025-03-29T18:20:26 CET" duration-ms="319" status="PASS">
+        </test-method> <!-- connexion -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tunisianet.TestCases.loginPageTest@661972b0]" started-at="2025-03-29T18:42:15 CET" name="tearDown" finished-at="2025-03-29T18:42:15 CET" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tunisianet.TestCases.TestHomePage@6aba2b86]" started-at="2025-03-29T18:20:26 CET" name="setUp" finished-at="2025-03-29T18:20:31 CET" duration-ms="4248" status="PASS">
+      </class> <!-- com.tunisianet.TestCases.loginPageTest -->
+      <class name="com.tunisianet.TestCases.TestHomePage">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.tunisianet.TestCases.TestHomePage@3bb9a3ff]" started-at="2025-03-29T18:42:05 CET" name="loadConfig" finished-at="2025-03-29T18:42:05 CET" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tunisianet.TestCases.TestHomePage@3bb9a3ff]" started-at="2025-03-29T18:42:05 CET" name="setUp" finished-at="2025-03-29T18:42:09 CET" duration-ms="4097" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifTittle()[pri:0, instance:com.tunisianet.TestCases.TestHomePage@6aba2b86]" started-at="2025-03-29T18:20:31 CET" name="verifTittle" finished-at="2025-03-29T18:20:31 CET" duration-ms="141" status="PASS">
+        <test-method signature="tunisiaNetLogoTest()[pri:0, instance:com.tunisianet.TestCases.TestHomePage@3bb9a3ff]" started-at="2025-03-29T18:42:09 CET" name="tunisiaNetLogoTest" finished-at="2025-03-29T18:42:09 CET" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tunisiaNetLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tunisianet.TestCases.TestHomePage@3bb9a3ff]" started-at="2025-03-29T18:42:09 CET" name="tearDown" finished-at="2025-03-29T18:42:09 CET" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tunisianet.TestCases.TestHomePage@3bb9a3ff]" started-at="2025-03-29T18:42:09 CET" name="setUp" finished-at="2025-03-29T18:42:11 CET" duration-ms="2245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifTittle()[pri:0, instance:com.tunisianet.TestCases.TestHomePage@3bb9a3ff]" started-at="2025-03-29T18:42:11 CET" name="verifTittle" finished-at="2025-03-29T18:42:11 CET" duration-ms="60" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifTittle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tunisianet.TestCases.TestHomePage@6aba2b86]" started-at="2025-03-29T18:20:31 CET" name="tearDown" finished-at="2025-03-29T18:20:31 CET" duration-ms="262" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tunisianet.TestCases.TestHomePage@3bb9a3ff]" started-at="2025-03-29T18:42:11 CET" name="tearDown" finished-at="2025-03-29T18:42:12 CET" duration-ms="88" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tunisianet.TestCases.TestHomePage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

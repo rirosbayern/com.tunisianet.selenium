@@ -2,6 +2,7 @@
 <suite name="Suite">
     <test name="Test">
         <classes>
+            <class name="com.tunisianet.TestCases.TestHomePage"/>
             <class name="com.tunisianet.TestCases.loginPageTest"/>
         </classes>
     </test>
