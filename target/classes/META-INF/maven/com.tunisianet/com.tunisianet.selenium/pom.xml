@@ -101,7 +101,7 @@
 				<version>2.22.2</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+						<suiteXmlFile>test-output/testng-results.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
