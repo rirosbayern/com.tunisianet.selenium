@@ -91,7 +91,7 @@
 						<suiteXmlFile>test-output/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<systemPropertyVariables>
-						<appURL>${url}</appURL>
+						<appURL>${url1}</appURL>
 					</systemPropertyVariables>
 				</configuration>
 			</plugin>
