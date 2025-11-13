@@ -39,7 +39,9 @@ public class TestHomePage  extends BaseClass{
 		boolean bool = homePage.validateLogo();
 		Assert.assertTrue(bool);
 		//String url = prop.getProperty("url");
-		//driver.get(url);
+		driver.get(url);
+		System.out.println(" first commit ");
+		
 			
 		
 	}
