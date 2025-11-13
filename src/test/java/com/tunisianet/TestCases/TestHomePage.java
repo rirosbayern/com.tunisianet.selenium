@@ -42,8 +42,9 @@ public class TestHomePage  extends BaseClass{
 		driver.get(url);
 		System.out.println(" first commit ");
 		System.out.println(" modification locale pour la creation de conflit ");
-		
-		
+
+		System.out.println("creation de conflit  ");
+
 			
 		
 	}
