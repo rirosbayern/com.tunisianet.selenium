@@ -41,6 +41,7 @@ public class TestHomePage  extends BaseClass{
 		//String url = prop.getProperty("url");
 		driver.get(url);
 		System.out.println(" first commit ");
+		System.out.println("creation de conflit  ");
 		
 			
 		
